@@ -25,7 +25,7 @@
 </template>
 
 <script setup>
-  const supabase = useSupabaseClient();
+  const supabase = useSupabaseAuthClient();
 
   const loading = ref(true);
   const username = ref("");
